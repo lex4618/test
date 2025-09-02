@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<model_version_info Desc="Windows端工具">
+		<!--如果多个分支则从上往下匹配，版本范围匹配规则：1.0-1.299：表示大于等于1.0小于等于1.299的版本， 2.1-：表示大于2.1的所有版本，
+		或者为空表示所有版本都可以使用该分支，如果版本未匹配到分支，则使用默认分支。版本范围可以指定OEM ID，比如：version_range__30-->
+		<SDMC model_id="SDMC" default_branch="V6_0">
+			<line>
+				<autotest_branch>V6_0</autotest_branch>
+				<version_range/>
+			</line>
+		</SDMC>
+
+		<SerialPortUpgradeTool model_id="SerialPortUpgradeTool" default_branch="V1_0">
+			<line>
+				<autotest_branch>V1_0</autotest_branch>
+				<version_range/>
+			</line>
+		</SerialPortUpgradeTool>
+	</model_version_info>
+</root>

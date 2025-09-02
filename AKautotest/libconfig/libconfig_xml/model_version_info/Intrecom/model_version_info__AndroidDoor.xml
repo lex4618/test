@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+    <model_version_info Desc="安卓门口机系列">
+        <!--如果多个分支则从上往下匹配，版本范围匹配规则：1.0-1.299：表示大于等于1.0小于等于1.299的版本， 2.1-：表示大于2.1的所有版本，
+        或者为空表示所有版本都可以使用该分支，如果版本未匹配到分支，则使用默认分支。版本范围可以指定OEM ID，比如：version_range__30-->
+        <R29 model_id="29" default_branch="R29V3_5">
+            <line>
+                <autotest_branch>R29V3_5</autotest_branch>
+                <version_range/>
+            </line>
+        </R29>
+
+        <X915 model_id="915" default_branch="Z_Web4_1">
+            <line>
+                <autotest_branch>Z_Web4_1</autotest_branch>
+                <version_range/>
+            </line>
+        </X915>
+
+        <X915V2 model_id="2915" default_branch="Z_Web4_1">
+            <line>
+                <autotest_branch>Z_Web4_1</autotest_branch>
+                <version_range/>
+            </line>
+        </X915V2>
+
+        <S539 model_id="539" default_branch="Z_Web4_1">
+            <line>
+                <autotest_branch>Z_Web4_1</autotest_branch>
+                <version_range/>
+            </line>
+        </S539>
+        <X916 model_id="916" default_branch="X916V1_0">
+            <line>
+				<!-- 若有覆盖, 合并到R29中实现. -->
+                <autotest_branch>X916V1_0</autotest_branch>
+                <version_range/>
+            </line>
+        </X916>
+    </model_version_info>
+</root>

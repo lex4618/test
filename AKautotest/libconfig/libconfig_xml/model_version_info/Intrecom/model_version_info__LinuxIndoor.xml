@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<model_version_info Desc="嵌入式室内机系列">
+		<!--如果多个分支则从上往下匹配，版本范围匹配规则：1.0-1.299：表示大于等于1.0小于等于1.299的版本， 2.1-：表示大于2.1的所有版本，
+		或者为空表示所有版本都可以使用该分支，如果版本未匹配到分支，则使用默认分支。版本范围可以指定OEM ID，比如：version_range__30-->
+		<C313 model_id="113" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion12</autotest_branch>
+				<version_range>12.0-12.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion13</autotest_branch>
+				<version_range>13.0-13.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C313>
+		<C313_V2 model_id="213" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C313_V2>
+		<C313_2_V2 model_id="212" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C313_2_V2>
+		<C313_V3 model_id="313" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C313_V3>
+		<C313_V3_2 model_id="311" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C313_V3_2>
+		<C313W_LP_2 model_id="311" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C313W_LP_2>
+		<S562 model_id="562" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion12</autotest_branch>
+				<version_range>12.0-12.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion13</autotest_branch>
+				<version_range>13.0-13.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</S562>
+		<S565 model_id="565" default_branch="V1_2">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>1.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion12</autotest_branch>
+				<version_range>12.0-12.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion13</autotest_branch>
+				<version_range>13.0-13.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</S565>
+		<S560 model_id="560" default_branch="V1_2.NonSecureVersion">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>0.1-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</S560>
+        <C310 model_id="310" default_branch="V1_2.NonSecureVersion">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>0.1-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</C310>
+		<Hager_Audio model_id="62" default_branch="V1_2.NonSecureVersion">
+			<line>
+				<autotest_branch>V1_2.NonSecureVersion</autotest_branch>
+				<version_range>0.1-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V1_2.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</Hager_Audio>
+	</model_version_info>
+</root>

@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+
+from libconfig.SMARTHOME.SMARTPANEL.NORMAL.libconfig_SMARTPANEL_NORMAL import config_SMARTPANEL_NORMAL
+
+
+class config_C319H_NORMAL(config_SMARTPANEL_NORMAL):
+
+    def __init__(self, device_name=''):
+        super().__init__(device_name)
+        self._product_model_name = 'SmartPanel Pro'
+        self._rename_cfg_file = 'C319Hreset.cfg'
+        self._autop_cfg_file = 'r000000000319.cfg'
+        self._old_firmware_file = 'C319H.zip'
+        self._firmware_ext = '.zip'
+        self._model_name = 'C319H'
+        self._model_id_NORMAL = '119'
+        self._oem = 'NORMAL'
+        self._remote_connect_type = 'ssh'
+        self._boot_time_after_get_ip = 40
+        self._screen_clickable_area = (0, 20, 1280, 800)
+        self._screen_width = 1280
+        self._screen_height = 800

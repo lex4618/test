@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<web_element_info>
+		<common Desc="通用模块">
+			<leftmenu>leftMenu</leftmenu>
+			<enabled>1</enabled>
+			<disabled>0</disabled>
+			<account1>0</account1>
+			<account2>1</account2>
+			<page_submit>PageSubmit</page_submit>
+			<page_cancel>PageCancel</page_cancel>
+			<logout>tPageLogOut</logout>
+			<index1_checkbox>cIndex1</index1_checkbox>
+			<index_checkbox>cIndex%d</index_checkbox>
+			<page_info>tCurPageInfo</page_info>
+			<option_value_Disabled>0</option_value_Disabled>
+			<option_value_Enabled>1</option_value_Enabled>
+		</common>
+
+		<talking_tips Desc="提示通话页面">
+			<phone_using_status>tPhoneUsingStatus</phone_using_status>
+		</talking_tips>
+
+		<status_page Desc="Status页面">
+			<status>tMenu10</status>
+			<status_basic>tMenu11</status_basic>
+			<status_model>cProductName</status_model>
+			<status_mac_address>cMACAddress</status_mac_address>
+			<status_firmware_version>cFirmwareVersion</status_firmware_version>
+			<status_hardware_version>cHardwareVersion</status_hardware_version>
+			<status_lan_port_type>cLANPortType</status_lan_port_type>
+			<status_lan_link_status>cLANLinkStatus</status_lan_link_status>
+			<status_lan_ip_address>cLANIPAddr</status_lan_ip_address>
+			<status_lan_subnet_mask>cLANSubnetMask</status_lan_subnet_mask>
+			<status_lan_gateway>cLANGateWay</status_lan_gateway>
+			<status_lan_dns1>cPrimaryDNS</status_lan_dns1>
+			<status_lan_dns2>cSecondryDNS</status_lan_dns2>
+			<status_account1_sip>//*[@id="tableStatus3"]/tbody/tr[5]/td[2]</status_account1_sip>
+			<status_account1_type>//*[@id="tableStatus3"]/tbody/tr[6]/td[2]</status_account1_type>
+			<status_account1_register_status>//*[@id="tableStatus3"]/tbody/tr[6]/td[2]</status_account1_register_status>
+			<status_account2_register_status>//*[@id="tableStatus3"]/tbody/tr[8]/td[2]</status_account2_register_status>
+			<status_account2_sip>//*[@id="tableStatus3"]/tbody/tr[7]/td[2]</status_account2_sip>
+			<status_account2_type>//*[@id="tableStatus3"]/tbody/tr[8]/td[2]</status_account2_type>
+		</status_page>
+
+		<account_basic_page Desc="Account Basic页面">
+			<account>tMenu20</account>
+			<account_basic>tMenu21</account_basic>
+			<account_active>cAccountActive</account_active>
+			<account_status>cAccountStatus</account_status>
+			<account_cur>cCurAccount</account_cur>
+			<sip_account_choice>cCurAccount</sip_account_choice>
+			<account_display_label>cDisplayLabel</account_display_label>
+			<account_display_name>cDisplayName</account_display_name>
+			<account_register_name>cRegisterName</account_register_name>
+			<account_user_name>cUserName</account_user_name>
+			<account_password>cPassword</account_password>
+			<account_server_ip>cFirstSIPServerAddr</account_server_ip>
+			<account_port>cFirstSIPServerPort</account_port>
+			<account_enable_outbound>cEnableOutbond</account_enable_outbound>
+			<account_trans_type_name>cAccountTransType</account_trans_type_name>
+			<outbound_status>cEnableOutbond</outbound_status>
+			<master_outbound_proxy_server_addr>cOutbondProxyAddr</master_outbound_proxy_server_addr>
+			<slave_outbound_proxy_server_addr>cBakProxyAddr</slave_outbound_proxy_server_addr>
+			<master_outbound_proxy_server_port>cOutbondProxyPort</master_outbound_proxy_server_port>
+			<slave_outbound_proxy_server_port>cBakProxyPort</slave_outbound_proxy_server_port>
+			<account_registration_period>cFirstRegisterExpire</account_registration_period>
+		</account_basic_page>
+
+		<account_advanced_page Desc="Account Advanced页面">
+			<account_advanced>tMenu22</account_advanced>
+			<auto_answer>cAutoAnswer</auto_answer>
+			<prevent_sip_hacking>cPreventSIPHacking</prevent_sip_hacking>
+			<user_agent>cUserAgent</user_agent>
+			<rport>cRPort</rport>
+			<is_escape_non_ascii>cIsEscapeNonAscii</is_escape_non_ascii>
+			<dtmf_type>cDTMFType</dtmf_type>
+			<dtmf_notify>cHowToInfoDTMF</dtmf_notify>
+			<how_to_info_dtmf>cHowToInfoDTMF</how_to_info_dtmf>
+			<dtmf_payload>cDTMFPayload</dtmf_payload>
+			<h264_enable>cCheckBoxH264</h264_enable>
+			<h264_resolution>cH264CodecResolution</h264_resolution>
+			<h264_bitrate>cH264CodecBitRate</h264_bitrate>
+			<h264_payload>cH264CodecPayLoad</h264_payload>
+		</account_advanced_page>
+
+		<network_basic_page Desc="Network Basic页面">
+			<network>tMenu30</network>
+			<network_basic>tMenu31</network_basic>
+			<network_basic_dhcp_id>tDHCP</network_basic_dhcp_id>
+			<network_basic_static_id>tStaticIP</network_basic_static_id>
+			<network_basic_ip_addr_id>cLANIPAddr</network_basic_ip_addr_id>
+			<network_basic_subnet_mask_id>cLANSubnetMask</network_basic_subnet_mask_id>
+			<network_basic_gateway_id>cDefaultGateWay</network_basic_gateway_id>
+			<network_basic_dns1_id>cPrimaryDNS</network_basic_dns1_id>
+			<network_basic_dns2_id>cSecondryDNS</network_basic_dns2_id>
+		</network_basic_page>
+
+		<network_advanced_page Desc="Network Advanced页面">
+			<network_advanced_submenu>tMenu32</network_advanced_submenu>
+			<network_device_node_addr1_id>Val1</network_device_node_addr1_id>
+			<network_device_node_addr2_id>Val2</network_device_node_addr2_id>
+			<network_device_node_addr3_id>Val3</network_device_node_addr3_id>
+			<network_device_node_addr4_id>Val4</network_device_node_addr4_id>
+			<network_device_node_addr5_id>Val5</network_device_node_addr5_id>
+			<network_device_extension_id>cDeviceExt</network_device_extension_id>
+			<network_device_location_id>cDeviceLocation</network_device_location_id>
+			<network_connect_type_id>cConnectType</network_connect_type_id>
+			<network_discovery_mode_name>cDiscoveryMode</network_discovery_mode_name>
+			<input_starting_rtp_port>cMinRTPPort</input_starting_rtp_port>
+			<input_max_rtp_port>cMaxRTPPort</input_max_rtp_port>
+		</network_advanced_page>
+
+		<upgrade_basic_page Desc="升级基础页面">
+			<upgrade_menu>tMenu60</upgrade_menu>
+			<upgrade_basic_submenu>tMenu61</upgrade_basic_submenu>
+		</upgrade_basic_page>
+
+		<upgrade_advanced_page Desc="升级高级页面">
+			<upgrade_advanced_submenu>tMenu62</upgrade_advanced_submenu>
+			<upgrade_advanced_mannal_url>cManualUpdateURL</upgrade_advanced_mannal_url>
+			<upgrade_advanced_common_aes_key>cCommonAESKey</upgrade_advanced_common_aes_key>
+			<upgrade_advanced_mac_aes_key>cMACAESKey</upgrade_advanced_mac_aes_key>
+			<upgrade_advanced_autop_immediately>AutoPConfirmBtn</upgrade_advanced_autop_immediately>
+			<upgrade_advanced_autop_schedule>cScheduleDayOfWeek</upgrade_advanced_autop_schedule>
+			<upgrade_advanced_autop_schedule_hour>cScheduleHourOfDay</upgrade_advanced_autop_schedule_hour>
+			<upgrade_advanced_autop_schedule_minu>cScheduleMinOfHour</upgrade_advanced_autop_schedule_minu>
+			<upgrade_pcap_specific_port_edit>cPCAPPortFilter</upgrade_pcap_specific_port_edit>
+		</upgrade_advanced_page>
+
+		<security_basic_page Desc="Security Basic页面">
+			<security_menu>tMenu70</security_menu>
+			<security_basic_submenu>tMenu71</security_basic_submenu>
+			<security_advanced_submenu>tMenu72</security_advanced_submenu>
+			<security_change_pwd_btn_id>cChangePassword</security_change_pwd_btn_id>
+			<security_modifymage_oldpwd>cModifyPage_OldPasswd</security_modifymage_oldpwd>
+			<security_modifymage_newpwd>cModifyPage_NewPasswd</security_modifymage_newpwd>
+			<security_modifymage_confirmpwd>cModifyPage_ConfirmPasswd</security_modifymage_confirmpwd>
+			<security_modifymage_change_btn>cModifyPage_Change</security_modifymage_change_btn>
+			<security_session_time_out_value>cSessionTimeOutValue</security_session_time_out_value>
+			<session_timeout>cSessionTimeOutValue</session_timeout>
+			<session_timeout_label>tSessionTimeOutValueLabel</session_timeout_label>
+		</security_basic_page>
+
+		<Security_Advanced Desc="Security/Advanced界面">
+			<PhoneUsingStatus>tPhoneUsingStatus</PhoneUsingStatus>
+			<CertIssuedBy>cCertIssuedBy</CertIssuedBy>
+			<webcert_delete>CheckWebCert</webcert_delete>
+			<WebCert_select>FWebCert</WebCert_select>
+			<Webcert_submit>uploadSubmit1</Webcert_submit>
+			<webcert_cancel>uploadCancel1</webcert_cancel>
+			<PhoneCert_CheckPCertAll>CheckPCertAll</PhoneCert_CheckPCertAll>
+			<PhoneCert_CheckPCert0>CheckPCert0</PhoneCert_CheckPCert0>
+			<Client_Cert_IndexSelect>cIndexSelect</Client_Cert_IndexSelect>
+			<CertIssuedTo0>cCertIssuedTo0</CertIssuedTo0>
+			<CertIssuedBy0>cCertIssuedBy0</CertIssuedBy0>
+			<PhoneCert_delete>PageSubmitDel</PhoneCert_delete>
+			<PhoneCert_deleteall>PageDeleteAll</PhoneCert_deleteall>
+			<PhoneCert_inputFileText1>inputFileText1</PhoneCert_inputFileText1>
+			<FPhoneCert>FPhoneCert</FPhoneCert>
+			<PhoneCert_submit>uploadSubmit2</PhoneCert_submit>
+			<PhoneCert_cancel>uploadCancel2</PhoneCert_cancel>
+			<OnlyAcceptTrusted>cOnlyAcceptTrusted</OnlyAcceptTrusted>
+			<OnlyAcceptTrusted_PageSubmit2>PageSubmit2</OnlyAcceptTrusted_PageSubmit2>
+		</Security_Advanced>
+
+		<modify_default_pwd_page Desc="修改默认密码界面">
+			<modify_default_pwd_pane>divModifyPage_ModifyPanel</modify_default_pwd_pane>
+		</modify_default_pwd_page>
+
+		<phone_time_page Desc="Phone Time/Lang页面">
+			<phone>tMenu40</phone>
+			<phone_time_lang>tMenu41</phone_time_lang>
+			<phone_time_zone>cTimeZone</phone_time_zone>
+			<phone_time_format>cTimeFormat</phone_time_format>
+			<phone_date_format>cDateFormat</phone_date_format>
+
+			<Time_Of_Status_Bar>cShowStatusBarTime</Time_Of_Status_Bar>
+			<lcd_language>cLCDLanguage</lcd_language>
+			<time_format_choice>cTimeFormat</time_format_choice>
+			<date_format_choice>cDateFormat</date_format_choice>
+			<time_zone_choice>cTimeZone</time_zone_choice>
+			<manual_time_check_id>cByManualTime1</manual_time_check_id>
+			<manual_date_year>cYear</manual_date_year>
+			<manual_date_month>cMonth</manual_date_month>
+			<manual_date_day>cDay</manual_date_day>
+			<manual_time_hour>cHour</manual_time_hour>
+			<manual_time_minute>cMinute</manual_time_minute>
+			<manual_time_second>cSecond</manual_time_second>
+			<auto_time_check_id>cByManualTime2</auto_time_check_id>
+			<ntp_primary_server>cPrimaryNTPServer</ntp_primary_server>
+			<ntp_secondary_server>cSecondryNTPServer</ntp_secondary_server>
+			<ntp_update_interval>cUpdateInterval</ntp_update_interval>
+		</phone_time_page>
+
+		<phone_logo Desc="Phone_Logo页面">
+			<phone_logo_page>tMenu416</phone_logo_page>
+			<boot_logo_format_tip>tBootLogoFormat</boot_logo_format_tip>
+			<boot_logo_upload_select>importLogo</boot_logo_upload_select>
+			<boot_logo_upload_submit>ImportLogo</boot_logo_upload_submit>
+			<web_logo_format_tip>tWebLogoFormat</web_logo_format_tip>
+			<web_logo_upload_select>importWebLogo</web_logo_upload_select>
+			<web_logo_upload_submit>ImportWebLogo</web_logo_upload_submit>
+		</phone_logo>
+
+		<phone_book_call_log_page Desc="通话记录页面">
+			<call_history_drop_down_box>cCurGroup</call_history_drop_down_box>
+			<call_log_index>cType%d</call_log_index>
+			<call_log_export>cExportCallLog</call_log_export>
+			<call_log_next_btn>Next</call_log_next_btn>
+			<call_log_pre_btn>Prev</call_log_pre_btn>
+			<call_log_page>tCurPageInfo</call_log_page>
+			<call_log_first_index_checkbox>cIndex1</call_log_first_index_checkbox>
+			<call_log_delete_btn>Delete</call_log_delete_btn>
+			<first_call_log_type>cType1</first_call_log_type>
+			<call_log_input_page>tGoToPage</call_log_input_page>
+			<call_log_page_btn>tGoToPageBtn</call_log_page_btn>
+		</phone_book_call_log_page>
+
+		<local_contacts Desc="contacts页面">
+			<contacts_SortMode>cSortMode</contacts_SortMode>
+			<sortmode_Default>0</sortmode_Default>
+			<sortmode_ASCII_Code>1</sortmode_ASCII_Code>
+			<sortmode_Created_Time>2</sortmode_Created_Time>
+			<contact_search_input>cSearchWord</contact_search_input>
+			<contact_search_btn>Contact_Search</contact_search_btn>
+			<contact_search_reset_btn>Contact_Search_Cancel</contact_search_reset_btn>
+			<contact_dial_input>cWebCallNumber</contact_dial_input>
+			<contact_dial_account>cWebCallAccount</contact_dial_account>
+			<contact_dial_choose_auto>0</contact_dial_choose_auto>
+			<contact_dial_choose_account1>1</contact_dial_choose_account1>
+			<contact_dial_choose_account2>2</contact_dial_choose_account2>
+			<contact_dial_btn>DialOut</contact_dial_btn>
+			<contact_dial_hangup_btn>HangUp</contact_dial_hangup_btn>
+			<first_contact_index_checkbox>cIndex1</first_contact_index_checkbox>
+			<contact_index_checkbox>cIndex%d</contact_index_checkbox>
+			<add_contact_name>cEditName</add_contact_name>
+			<add_contact_num1>cEditMobile</add_contact_num1>
+			<add_contact_num2>cEditOffice</add_contact_num2>
+			<add_contact_num3>cEditOther</add_contact_num3>
+			<add_contact_group>cEditGroup</add_contact_group>
+			<add_contact_ring>cEditRing</add_contact_ring>
+			<add_contact_account>cEditAccount</add_contact_account>
+			<add_contact_btn>Contact_Add</add_contact_btn>
+			<edit_contact_btn>Contact_Edit</edit_contact_btn>
+			<cancel_contact_btn>CancelContact</cancel_contact_btn>
+			<first_contact_name>cContactName1</first_contact_name>
+			<first_contact_number1>cContactMobileNum1</first_contact_number1>
+			<index_contact_number1>cContactMobileNum%d</index_contact_number1>
+			<first_contact_number2>cContactOfficeNum1</first_contact_number2>
+			<index_contact_number2>cContactOfficeNum%d</index_contact_number2>
+			<first_contact_name>cContactName1</first_contact_name>
+			<delete_contact>Contact_Delete</delete_contact>
+			<delete_all_contact>DeleteAll</delete_all_contact>
+			<contact_page>tCurPageInfo</contact_page>
+			<contact_next_btn>Next</contact_next_btn>
+			<contact_pre_btn>Prev</contact_pre_btn>
+			<contact_input_page>tGoToPage</contact_input_page>
+			<contact_page_btn>tGoToPageBtn</contact_page_btn>
+			<first_contact_group_name>cGroupName1</first_contact_group_name>
+			<index_contact_name>cGroupName%d</index_contact_name>
+			<index_contact_ring>cGroupRing%d</index_contact_ring>
+			<index_contact_description>cGroupDescription%d</index_contact_description>
+			<first_contact_group_index_checkbox>cGroupIndex1</first_contact_group_index_checkbox>
+			<contact_group_index_checkbox>cGroupIndex%d</contact_group_index_checkbox>
+			<delete_contact_group>DeleteGp</delete_contact_group>
+			<delete_all_contact_group>DeleteAllGp</delete_all_contact_group>
+			<add_contact_group_name>cEditGroupName</add_contact_group_name>
+			<add_contact_group_ring>cEditGroupRing</add_contact_group_ring>
+			<add_contact_group_description>cEditGroupDescription</add_contact_group_description>
+			<add_contact_group_btn>AddGp</add_contact_group_btn>
+			<edit_contact_group_btn>EditGp</edit_contact_group_btn>
+			<cancel_contact_group_btn>CancelGroup</cancel_contact_group_btn>
+			<export_contact>ExportContact</export_contact>
+			<export_xml_contact>divExportContact</export_xml_contact>
+			<export_csv_contact>divExportContactCSV</export_csv_contact>
+			<contacts_import>ImportContacts</contacts_import>
+			<contacts_select_file>importContactsFile</contacts_select_file>
+			<contacts_import_file_text>inputFileText</contacts_import_file_text>
+			<contacts_import_cancel>Reset1</contacts_import_cancel>
+			<contact_edit_btn>Contact_Edit</contact_edit_btn>
+			<contacts>cCurGroup</contacts>
+			<select_allcontact_value>AllContacts</select_allcontact_value>
+			<select_blocklist_value>BlackList</select_blocklist_value>
+			<select_account>cEditAccount</select_account>
+			<select_account_auto_value>0</select_account_auto_value>
+			<select_account_account1_value>1</select_account_account1_value>
+			<select_account_account2_value>2</select_account_account2_value>
+			<select_moveto>MoveToWhere</select_moveto>
+			<group_delete_btn>DeleteGp</group_delete_btn>
+			<group_delete_all_btn>DeleteAllGp</group_delete_all_btn>
+			<blocklist_import>ImportBlockList</blocklist_import>
+			<blocklist_select_file>importBlockListFile</blocklist_select_file>
+			<export_blocklist>bExportBlockList</export_blocklist>
+			<export_xml_blocklist>divExportBlockList</export_xml_blocklist>
+			<export_csv_blocklist>divExportBlockListCSV</export_csv_blocklist>
+			<blocklist_import_file_text>inputFileTextBlockList</blocklist_import_file_text>
+			<blocklist_import_cancel>Reset2</blocklist_import_cancel>
+			<web_call>cWebCallNumber</web_call>
+			<dail_out>DialOut</dail_out>
+			<hang_up>HangUp</hang_up>
+		</local_contacts>
+
+	</web_element_info>
+</root>

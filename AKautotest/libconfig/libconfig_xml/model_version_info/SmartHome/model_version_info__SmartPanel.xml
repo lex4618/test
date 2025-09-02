@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<model_version_info Desc="家居-家庭中心">
+		<!--如果多个分支则从上往下匹配，版本范围匹配规则：1.0-1.299：表示大于等于1.0小于等于1.299的版本， 2.1-：表示大于2.1的所有版本，
+		或者为空表示所有版本都可以使用该分支，如果版本未匹配到分支，则使用默认分支。版本范围可以指定OEM ID，比如：version_range__30-->
+		<X933H model_id="933" default_branch="V39">
+			<line>
+				<autotest_branch>V2_3</autotest_branch>
+				<version_range>23.0-23.100</version_range>
+			</line>
+			<line>
+				<autotest_branch>V31</autotest_branch>
+				<version_range>31.0-35.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI3_0</autotest_branch>
+				<version_range>38.100-38.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V39</autotest_branch>
+				<version_range>39.0-</version_range>
+			</line>
+		</X933H>
+
+		<C319H model_id="119" default_branch="V39">
+			<line>
+				<autotest_branch>V2_3</autotest_branch>
+				<version_range>23.0-23.100</version_range>
+			</line>
+			<line>
+				<autotest_branch>V31</autotest_branch>
+				<version_range>31.0-35.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI3_0</autotest_branch>
+				<version_range>38.100-38.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>V39</autotest_branch>
+				<version_range>39.0-</version_range>
+			</line>
+		</C319H>
+	</model_version_info>
+</root>

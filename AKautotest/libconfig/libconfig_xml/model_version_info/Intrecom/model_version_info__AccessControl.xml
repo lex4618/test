@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<model_version_info Desc="门禁A系列">
+		<!--如果多个分支则从上往下匹配，版本范围匹配规则：1.0-1.299：表示大于等于1.0小于等于1.299的版本， 2.1-：表示大于2.1的所有版本，
+		或者为空表示所有版本都可以使用该分支，如果版本未匹配到分支，则使用默认分支。版本范围可以指定OEM ID，比如：version_range__30-->
+		<A01 model_id="101" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1.NonSecureVersion</autotest_branch>
+				<version_range>0.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI4_1.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</A01>
+		<A02 model_id="101" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1.NonSecureVersion</autotest_branch>
+				<version_range>0.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI4_1.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</A02>
+		<A03 model_id="103" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1.NonSecureVersion</autotest_branch>
+				<version_range>0.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI4_1.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</A03>
+		<A05 model_id="105" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1.NonSecureVersion</autotest_branch>
+				<version_range>0.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI4_1.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</A05>
+		<A05V2 model_id="205" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1.NonSecureVersion</autotest_branch>
+				<version_range>0.0-9.999</version_range>
+			</line>
+			<line>
+				<autotest_branch>UI4_1.SecureVersion</autotest_branch>
+				<version_range>10.0-</version_range>
+			</line>
+		</A05V2>
+		<A06 model_id="106" default_branch="UI4_0">
+			<line>
+				<autotest_branch>UI4_0</autotest_branch>
+				<version_range/>
+			</line>
+		</A06>
+		<A08 model_id="108" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1</autotest_branch>
+				<version_range/>
+			</line>
+		</A08>
+		<A094 model_id="92" default_branch="UI4_1">
+			<line>
+				<autotest_branch>UI4_1</autotest_branch>
+				<version_range/>
+			</line>
+		</A094>
+		<EC33 model_id="33" default_branch="UI4_0">
+			<line>
+				<autotest_branch>UI4_0</autotest_branch>
+				<version_range/>
+			</line>
+		</EC33>
+	</model_version_info>
+</root>

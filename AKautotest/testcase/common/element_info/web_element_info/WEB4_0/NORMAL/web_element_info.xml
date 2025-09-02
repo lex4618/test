@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<web_element_info>
+		<common Desc="通用模块">
+			<enabled>1</enabled>
+			<disabled>0</disabled>
+			<account1>0</account1>
+			<account2>1</account2>
+			<page_submit_xpath>//div[@class="ak-common-submit"]/button[2]</page_submit_xpath>
+			<page_cancel_xpath>//div[@class="ak-common-submit"]/button[1]</page_cancel_xpath>
+
+			<modal_submit_btn>//*[@class="ak-common-modal-footer"]//button[2]</modal_submit_btn>
+			<modal_cancel_btn>//*[@class="ak-common-modal-footer"]//button[1]</modal_cancel_btn>
+
+			<page_prev>//span[text()="Prev"]/..</page_prev>
+			<page_next>//span[text()="Next"]/..</page_next>
+			<table_page_num>//*[@class="ak-common-table-footer"]/span[contains(text(), "/")]</table_page_num>
+			<table_page_go_num_input>//input[@role="spinbutton"]</table_page_go_num_input>
+			<table_page_go_btn>//span[text()="Go"]/..</table_page_go_btn>
+
+			<menu_item_class>ant-menu-item</menu_item_class>
+			<submenu_item_selected_class>router-link-exact-active router-link-active</submenu_item_selected_class>
+			<menu_submenu_class>ant-menu-submenu ant-menu-submenu-inline</menu_submenu_class>
+			<menu_submenu_selected_partial_class>ant-menu-submenu-open</menu_submenu_selected_partial_class>
+			<prompt_dialog_box_xpath>/html/body/div[3]</prompt_dialog_box_xpath>
+			<prompt_dialog_content_xpath>/html/body/div[3]/span/div/div/div/div[1]</prompt_dialog_content_xpath>
+
+			<alert_tips>//*[@class="ant-modal-confirm-body-wrapper"]//*[@class="ant-modal-confirm-content"]</alert_tips>
+			<alert_cancel>//*[@class="ant-modal-confirm-body-wrapper"]/div[@class="ant-modal-confirm-btns"]/button[1]</alert_cancel>
+			<alert_ok>//*[@class="ant-modal-confirm-body-wrapper"]/div[@class="ant-modal-confirm-btns"]/button[2]</alert_ok>
+
+			<submit_tips Desc="右上角提交提示语">//*[@class="ant-notification-notice-message"]</submit_tips>
+			<processing_class Desc="等待">ak-processing-modal-label</processing_class>
+			<top_language_combobox_xpath>//*[@class="ak-top"]/div/div</top_language_combobox_xpath>
+
+			<select_file_input>//*[@class="ak-modal-file-input-file-name"]//input</select_file_input>
+			<select_file_reset>//div[@class='ak-modal-file-input-file-name']/../button[1]</select_file_reset>
+			<select_file_cancel_btn>//*[@class="ak-common-modal-footer"]//button[contains(@class,"ak-common-modal-footer-cancel")]</select_file_cancel_btn>
+			<select_file_upload_btn>//*[@class="ak-common-modal-footer"]//button[contains(@class,"ak-common-modal-footer-confirm")]</select_file_upload_btn>
+		</common>
+
+		<submenu_section Desc="子菜单部分">
+			<menu_counts_xpath>//*[@class="ak-left-menu-div"]//ul[contains(@class, "ant-menu-root")]/li</menu_counts_xpath>
+			<menu_homepage_xpath>//*[@class="ak-left-menu-div"]/ul/li[1]</menu_homepage_xpath>
+			<menu_status_xpath>//a[@href="#iconStatus"]</menu_status_xpath>
+			<menu_status_basic_xpath>//a[@href="#/StatusBasic"]</menu_status_basic_xpath>
+			<menu_account_basic_xpath>//a[@href="#/AccountBasic"]</menu_account_basic_xpath>
+			<menu_account_advanced_xpath>//a[@href="#/AccountAdvanced"]</menu_account_advanced_xpath>
+			<menu_network_basic_xpath>//a[@href="#/NetworkBasic"]</menu_network_basic_xpath>
+			<menu_network_advanced_xpath>//a[@href="#/NetworkAdvanced"]</menu_network_advanced_xpath>
+			<menu_phone_time_xpath>//a[@href="#/PhoneTime"]</menu_phone_time_xpath>
+			<menu_phone_call_feature_xpath>//a[@href="#/PhoneCallFeature"]</menu_phone_call_feature_xpath>
+			<menu_phone_display_setting_xpath>//a[@href="#/PhoneDisplaySetting"]</menu_phone_display_setting_xpath>
+			<menu_phone_audio_xpath>//a[@href="#/PhoneAudio"]</menu_phone_audio_xpath>
+			<menu_phone_multicast_xpath>//a[@href="#/PhoneMulicast"]</menu_phone_multicast_xpath>
+			<menu_phone_monitor_xpath>//a[@href="#/PhoneMonitor"]</menu_phone_monitor_xpath>
+			<menu_phone_intercom_xpath>//a[@href="#/PhoneIntercom"]</menu_phone_intercom_xpath>
+			<menu_phone_relay_xpath>//a[@href="#/PhoneRelay"]</menu_phone_relay_xpath>
+			<menu_phone_app_xpath>//a[@href="#/PhoneApp"]</menu_phone_app_xpath>
+			<menu_phone_lift_xpath>//a[@href="#/PhoneLift"]</menu_phone_lift_xpath>
+			<menu_contacts_local_contacts_xpath>//a[@href="#/ContactsLocalContacts"]</menu_contacts_local_contacts_xpath>
+			<menu_contacts_call_log_xpath>//a[@href="#/ContactsCallLog"]</menu_contacts_call_log_xpath>
+			<menu_upgrade_basic_xpath>//a[@href="#/UpgradeBasic"]</menu_upgrade_basic_xpath>
+			<menu_upgrade_advanced_xpath>//a[@href="#/UpgradeAdvanced"]</menu_upgrade_advanced_xpath>
+			<menu_upgrade_diagnosis_xpath>//a[@href="#/UpgradeDiagnosis"]</menu_upgrade_diagnosis_xpath>
+			<menu_security_basic_xpath>//a[@href="#/SecurityBasic"]</menu_security_basic_xpath>
+			<menu_security_advanced_xpath>//a[@href="#/SecurityAdvanced"]</menu_security_advanced_xpath>
+			<menu_setting_basic_xpath>//a[@href="#/SettingBasic"]</menu_setting_basic_xpath>
+			<menu_setting_voice_assistant_xpath>//a[@href="#/SettingVoiceAssistant"]</menu_setting_voice_assistant_xpath>
+			<menu_arming_zone_setting_xpath>//a[@href="#/ArmingZoneSetting"]</menu_arming_zone_setting_xpath>
+			<menu_arming_mode_xpath>//a[@href="#/ArmingMode"]</menu_arming_mode_xpath>
+			<menu_arming_disarm_code_xpath>//a[@href="#/ArmingDisarmCode"]</menu_arming_disarm_code_xpath>
+			<menu_arming_alarm_action_xpath>//a[@href="#/ArmingAlarmAction"]</menu_arming_alarm_action_xpath>
+			<menu_arming_sync_alarm_xpath>//a[@href="#/ArmingSynchronizedAlarm"]</menu_arming_sync_alarm_xpath>
+
+			<menu_system_network_xpath>//a[@href="#/SystemNetwork"]</menu_system_network_xpath>
+			<menu_system_time_xpath>//a[@href="#/SystemTime"]</menu_system_time_xpath>
+			<menu_system_upgrade_xpath>//a[@href="#/SystemUpgrade"]</menu_system_upgrade_xpath>
+			<menu_system_autop_xpath>//a[@href="#/SystemAutoProvisioning"]</menu_system_autop_xpath>
+			<menu_system_maintenance_xpath>//a[@href="#/SystemMaintenance"]</menu_system_maintenance_xpath>
+			<menu_system_security_xpath>//a[@href="#/SystemSecurity"]</menu_system_security_xpath>
+		</submenu_section>
+
+		<login_page Desc="登录页面">
+			<login_username_xpath>//*[@id="app"]/div/div/div[2]/div[2]/span[1]/input</login_username_xpath>
+			<login_password_xpath>//*[@id="app"]/div/div/div[2]/div[2]/span[2]/input</login_password_xpath>
+			<login_btn_class>ak-homepage-btn</login_btn_class>
+		</login_page>
+
+		<home_page Desc="Home主页">
+			<home_logout_class>ak-logout-label</home_logout_class>
+			<home_logout_xpath>//*[@class="ak-logout-label"]</home_logout_xpath>
+			<home_status_class>ak-homepage-device-info-status</home_status_class>
+			<home_status_title_xpath>//*[@class="ak-homepage-device-info-status"]/div/label</home_status_title_xpath>
+			<home_account_id>account</home_account_id>
+			<home_network_id>network</home_network_id>
+			<home_phone_id>phone</home_phone_id>
+			<home_contacts_id>contacts</home_contacts_id>
+			<home_upgrade_id>upgrade</home_upgrade_id>
+			<home_security_id>security</home_security_id>
+			<home_setting_id>setting</home_setting_id>
+			<home_arming_id>arming</home_arming_id>
+			<home_status_id>status</home_status_id>
+			<home_directory_id>directory</home_directory_id>
+			<home_services_id>services</home_services_id>
+			<home_hardware_id>hardware</home_hardware_id>
+			<home_system_id>system</home_system_id>
+			<home_lang_box_xpath>//*[@class="ak-homepage-language"]/div[1]/div</home_lang_box_xpath>
+			<home_lang_english_xpath>/html/body/div[2]/div/div/div/ul/li[1]</home_lang_english_xpath>
+			<home_lang_chs_xpath>/html/body/div[2]/div/div/div/ul/li[2]</home_lang_chs_xpath>
+			<home_lang_cht_xpath>/html/body/div[2]/div/div/div/ul/li[3]</home_lang_cht_xpath>
+
+			<home_status_model_xpath>//label[text()='Model']/following-sibling::label</home_status_model_xpath>
+			<home_status_mac_xpath>//label[text()='MAC Address']/following-sibling::label</home_status_mac_xpath>
+			<home_status_hardware_version_xpath>//label[text()='Hardware Version']/following-sibling::label</home_status_hardware_version_xpath>
+			<home_status_firmware_version_xpath>//label[text()='Firmware Version']/following-sibling::label</home_status_firmware_version_xpath>
+			<home_status_sip1_status_xpath>//label[text()='SIP1']/following-sibling::label</home_status_sip1_status_xpath>
+			<home_status_sip2_status_xpath>//label[text()='SIP2']/following-sibling::label</home_status_sip2_status_xpath>
+		</home_page>
+
+		<status_page Desc="Status页面">
+			<status_model>//label[text()="Model"]/../label[2]</status_model>
+			<status_mac_address>//label[text()="MAC Address"]/../label[2]</status_mac_address>
+			<status_firmware_version>//label[text()="Firmware Version"]/../label[2]</status_firmware_version>
+			<status_hardware_version>//label[text()="Hardware Version"]/../label[2]</status_hardware_version>
+			<status_location>//label[text()="Location"]/../label[2]</status_location>
+			<status_room_number>//label[text()="Room Number"]/../label[2]</status_room_number>
+			<status_network_type>//label[text()="Network Type"]/../label[2]</status_network_type>
+			<status_lan_port_type>//label[text()="LAN Port Type"]/../label[2]</status_lan_port_type>
+			<status_link_status>//label[text()="Link Status"]/../label[2]</status_link_status>
+			<status_ip_address>//label[text()="IP Address"]/../label[2]</status_ip_address>
+			<status_subnet_mask>//label[text()="Subnet Mask"]/../label[2]</status_subnet_mask>
+			<status_gateway>//label[text()="GateWay"]/../label[2]</status_gateway>
+			<status_dns1>//label[text()="Preferred DNS"]/../label[2]</status_dns1>
+			<status_dns2>//label[text()="Alternate DNS"]/../label[2]</status_dns2>
+			<status_ntp1>//label[text()="Primary NTP"]/../label[2]</status_ntp1>
+			<status_ntp2>//label[text()="Secondary NTP"]/../label[2]</status_ntp2>
+			<status_account1_username>//label[text()="Account1"]/../label[2]</status_account1_username>
+			<status_account1_status>//label[text()="Account1"]/../../following-sibling::div[1]/div/label[2]</status_account1_status>
+			<status_account2_username>//label[text()="Account2"]/../label[2]</status_account2_username>
+			<status_account2_status>//label[text()="Account2"]/../../following-sibling::div[1]/div/label[2]</status_account2_status>
+		</status_page>
+
+		<account_basic_page Desc="Account Basic页面">
+			<account_status_xpath>//*[@class="ak-common-page-div"]/div[2]/div[2]/div/label[2]</account_status_xpath>
+			<account_select_xpath>//*[@id="currentAccount"]/div/div</account_select_xpath>
+			<account_enabled_xpath>//label[text()="Account Enabled"]/../label[2]//input</account_enabled_xpath>
+			<account_display_label_xpath>//*[@id="Config.Account1.GENERAL.Label"]/input</account_display_label_xpath>
+			<account_display_name_xpath>//*[@id="Config.Account1.GENERAL.DisplayName"]/input</account_display_name_xpath>
+			<account_register_name_xpath>//*[@id="Config.Account1.GENERAL.AuthName"]/input</account_register_name_xpath>
+			<account_user_name_xpath>//*[@id="Config.Account1.GENERAL.UserName"]/input</account_user_name_xpath>
+			<account_pwd_xpath>//*[@id="Config.Account1.GENERAL.Pwd"]/input</account_pwd_xpath>
+			<account_sip_server_xpath>//*[@id="Config.Account1.SIP.Server"]/input</account_sip_server_xpath>
+			<account_sip_port_xpath>//*[@id="Config.Account1.SIP.Port"]/input</account_sip_port_xpath>
+			<account_sip_period_xpath>//*[@id="Config.Account1.REG.Timeout"]/input</account_sip_period_xpath>
+			<account_trans_type>//*[@id="Config.Account1.SIP.TransType"]/div/div</account_trans_type>
+			<account_trans_type_xpath>//*[@id="Config.Account1.SIP.TransType"]/div/div</account_trans_type_xpath>
+
+			<account_outbound_enable>//label[text()="Outbound Enabled"]/../label[2]//input</account_outbound_enable>
+			<account_outbound_server>//*[@id="Config.Account1.OUTPROXY.Server"]/input</account_outbound_server>
+			<account_outbound_server_port>//*[@id="Config.Account1.OUTPROXY.Port"]/input</account_outbound_server_port>
+			<account_outbound_backup_server>//*[@id="Config.Account1.OUTPROXY.BakServer"]/input</account_outbound_backup_server>
+			<account_outbound_backup_server_port>//*[@id="Config.Account1.OUTPROXY.BakPort"]/input</account_outbound_backup_server_port>
+
+			<account_stun_enable>//label[text()="NAT"]/../label[2]//input</account_stun_enable>
+			<account_stun_server>//*[@id="Config.Account1.STUN.Server"]/input</account_stun_server>
+			<account_stun_server_port>//*[@id="Config.Account1.STUN.Port"]/input</account_stun_server_port>
+		</account_basic_page>
+
+		<account_advanced_page Desc="Account Advanced页面">
+			<account_advanced_auto_answer_xpath>//label[text()="Auto Answer"]/following-sibling::label[1]//input</account_advanced_auto_answer_xpath>
+			<account_advanced_sip_hacking_xpath>//*[@id="CallMinPort"]/../following-sibling::div[2]//input</account_advanced_sip_hacking_xpath>
+			<account_advanced_enable_codec_xpath>//*[@class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"][1]</account_advanced_enable_codec_xpath>
+			<account_advanced_disable_codec_xpath>//*[@class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"][2]</account_advanced_disable_codec_xpath>
+			<account_advanced_enabled_codecs_xpath>//label[text()="Audio Codecs"]/../..//span[text()="Enabled Codecs"]/../../following-sibling::div[1]//li</account_advanced_enabled_codecs_xpath>
+			<account_advanced_disabled_codecs_xpath>//label[text()="Audio Codecs"]/../..//span[text()="Disabled Codecs"]/../../following-sibling::div[1]//li</account_advanced_disabled_codecs_xpath>
+			<account_advanced_move_codec_top_xpath>//*[@class="ak-common-transfer-button-up ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"][1]</account_advanced_move_codec_top_xpath>
+			<account1_advanced_resolution_xpath>//*[@id="Config.Account1.Video00.ProfileLevel"]/div/div</account1_advanced_resolution_xpath>
+			<account1_advanced_ritrate_xpath>//*[@id="Config.Account1.Video00.MaxBR"]/div/div</account1_advanced_ritrate_xpath>
+
+			<account_dtmf_type_xpath>//*[@id="DTMFType"]/div/div</account_dtmf_type_xpath>
+			<account_dtmf_info_type_xpath>//*[@id="DTMFInfoType"]/div/div</account_dtmf_info_type_xpath>
+			<account_dtmf_payload_edit_xpath>//*[@id="DTMFPayload"]/div/input</account_dtmf_payload_edit_xpath>
+
+			<max_local_sip_port_xpath>//*[@id="Config.Account1.SIP.ListenPortMax"]/input</max_local_sip_port_xpath>
+			<min_local_sip_port_xpath>//*[@id="Config.Account1.SIP.ListenPortMin"]/input</min_local_sip_port_xpath>
+			<prevent_sip_hacking_xpath>//*[@id="CallMinPort"]/../following-sibling::div[2]//input</prevent_sip_hacking_xpath>
+
+			<voice_encryption_srtp_xpath>//*[@id="Config.Account1.ENCRYPTION.SRTPEncryption"]/div/div</voice_encryption_srtp_xpath>
+
+			<account_rport_enabled>//label[text()="RPort Enabled"]/../label[2]//input</account_rport_enabled>
+
+			<account_user_agent>//*[@id="Config.Account1.GENERAL.UserAgent"]/input</account_user_agent>
+		</account_advanced_page>
+
+		<network_basic_page Desc="Network Basic页面">
+			<network_basic_dhcp_xpath>//span[text()="DHCP"]/../span/input</network_basic_dhcp_xpath>
+			<network_basic_staticip_xpath>//span[text()="Static IP"]/../span/input</network_basic_staticip_xpath>
+			<network_basic_ip_addr_xpath>//*[@id="Config.Network.LAN.StaticIP"]/input</network_basic_ip_addr_xpath>
+			<network_basic_subnet_mask_xpath>//*[@id="Config.Network.LAN.SubnetMask"]/input</network_basic_subnet_mask_xpath>
+			<network_basic_gateway_xpath>//*[@id="Config.Network.LAN.DefaultGateway"]/input</network_basic_gateway_xpath>
+			<network_basic_dns1_xpath>//*[@id="Config.Network.LAN.PrimaryDNS"]/input</network_basic_dns1_xpath>
+			<network_basic_dns2_xpath>//*[@id="Config.Network.LAN.SecondaryDNS"]/input</network_basic_dns2_xpath>
+		</network_basic_page>
+
+		<network_advanced_page Desc="Network Advanced页面">
+			<network_connect_server_mode>//label[text()="Connect Type" or text()="Server Mode"]/following-sibling::label[1]</network_connect_server_mode>
+			<network_connect_discovery_mode>//label[text()="Discovery Mode"]/following-sibling::label[1]/span/input</network_connect_discovery_mode>
+			<network_connect_device_address1>//label[text()="Device Address"]/../div[1]/input</network_connect_device_address1>
+			<network_connect_device_address2>//label[text()="Device Address"]/../div[2]/input</network_connect_device_address2>
+			<network_connect_device_address3>//label[text()="Device Address"]/../div[3]/input</network_connect_device_address3>
+			<network_connect_device_address4>//label[text()="Device Address"]/../div[4]/input</network_connect_device_address4>
+			<network_connect_device_address5>//label[text()="Device Address"]/../div[5]/input</network_connect_device_address5>
+			<network_connect_device_extension>//*[@id="DeviceExtension"]/div/input</network_connect_device_extension>
+			<network_connect_device_location>//*[@id="DeviceLocation" or @id="DisplayName"]/div/input</network_connect_device_location>
+
+			<network_local_rtp_min_port>//*[@id="RTPMinPort"]/div/input</network_local_rtp_min_port>
+			<network_local_rtp_max_port>//*[@id="RTPMaxPort"]/div/input</network_local_rtp_max_port>
+		</network_advanced_page>
+
+		<device_time_page Desc="Device Time页面">
+			<device_time_auto_time>//label[text()="Automatic Date&amp;Time"]/../label[2]//input</device_time_auto_time>
+			<phone_time_format_xpath>//*[@id="Config.Settings.DATETIME.TimeFormat"]/div/div</phone_time_format_xpath>
+			<phone_date_format_xpath>//*[@id="Config.Settings.DATETIME.DateFormat"]/div/div</phone_date_format_xpath>
+			<device_time_manual_date_pick>//label[text()="Date"]/../span/div/input</device_time_manual_date_pick>
+			<device_time_manual_time_pick>//label[text()="Time"]/../span/input</device_time_manual_time_pick>
+			<device_time_time_zone>//*[@id="Config.Settings.SNTP.Name"]/div/div</device_time_time_zone>
+			<device_time_ntp_server>//*[@id="Config.Settings.SNTP.NTPServer1"]/input</device_time_ntp_server>
+			<device_time_ntp_server2>//*[@id="Config.Settings.SNTP.NTPServer2"]/input</device_time_ntp_server2>
+		</device_time_page>
+
+		<contacts_local_contacts_page Desc="Local Contacts页面">
+			<contacts_add_name>//*[@class="ant-modal-body"]//label[text()="Name"]/..//input</contacts_add_name>
+			<contacts_add_number>//*[@class="ant-modal-body"]//label[text()="Number"]/..//input</contacts_add_number>
+			<contacts_add_group>//*[@class="ant-modal-body"]//label[text()="Group"]/..//div[@role="combobox"]</contacts_add_group>
+			<contacts_add_dial_account>//*[@class="ant-modal-body"]//label[text()="Dial Account"]/..//div[@role="combobox"]</contacts_add_dial_account>
+			<contacts_add_ringtone>//*[@class="ant-modal-body"]//label[text()="Ringtone"]/..//div[@role="combobox"]</contacts_add_ringtone>
+			<contacts_add_btn>//span[text()="Add"]/..</contacts_add_btn>
+			<contacts_export_btn>//span[text()="Export"]/..</contacts_export_btn>
+			<contacts_import_btn>//span[text()="Import"]/..</contacts_import_btn>
+		</contacts_local_contacts_page>
+
+		<call_feature_page Desc="Call Feature页面">
+			<indoor_auto_answer_xpath>//*[@id="app"]/div/div/section/section/main/div/div[5]/div[7]/div/label[2]/span[1]/input</indoor_auto_answer_xpath>
+			<call_feature_refuse_return_code>//*[@id="Config.Features.REJECT.ReturnCode"]/div/div</call_feature_refuse_return_code>
+			<call_feature_auto_answer_delay>//*[@id="Config.Features.AUTOANSWER.Delay"]/input</call_feature_auto_answer_delay>
+		</call_feature_page>
+
+		<display_setting_page Desc="Display Setting页面">
+
+		</display_setting_page>
+
+		<upgrage_basic_page Desc="升级基础页面">
+			<upgrade_basic_firmware_version_xpath>//*[@class="ak-common-page-div"]/div[2]/div[2]/div/label[2]</upgrade_basic_firmware_version_xpath>
+			<upgrade_basic_hardware_version_xpath>//*[@class="ak-common-page-div"]/div[2]/div[3]/div/label[2]</upgrade_basic_hardware_version_xpath>
+			<upgrade_basic_import_xpath>//*[@class="ak-common-page-div"]/div[2]/div[4]/div/button[1]</upgrade_basic_import_xpath>
+			<upgrade_basic_select_file_xpath>//*[@class="ak-modal-file-input-file-name"]/span/div/span/button</upgrade_basic_select_file_xpath>
+			<upgrade_basic_select_file_input_xpath>//*[@class="ak-modal-file-input-file-name"]/span/div/span/input</upgrade_basic_select_file_input_xpath>
+			<upgrade_basic_select_reset_xpath>//*[@class="ak-modal-file-input-file-name"]/following-sibling::button[1]</upgrade_basic_select_reset_xpath>
+			<upgrade_basic_select_submit_xpath>//*[@class="ak-common-modal-footer-btn ak-common-modal-footer-confirm ant-btn ant-btn-primary"]</upgrade_basic_select_submit_xpath>
+			<upgrade_basic_select_cancel_xpath>//*[@class="ak-common-modal-footer-btn ak-common-modal-footer-cancel ant-btn ant-btn-danger"]</upgrade_basic_select_cancel_xpath>
+			<upgrade_basic_select_reset_to_factory_xpath>//label[text()="Reset"]/..//input</upgrade_basic_select_reset_to_factory_xpath>
+			<upgrade_basic_factory_default_xpath>//*[@class="ak-common-page-div"]/div[2]/div[5]/div/button</upgrade_basic_factory_default_xpath>
+			<upgrade_basic_reset_config_xpath>//*[@class="ak-common-page-div"]/div[2]/div[6]/div/button</upgrade_basic_reset_config_xpath>
+			<upgrade_basic_reboot_xpath>//*[@class="ak-common-page-div"]/div[2]/div[7]/div/button</upgrade_basic_reboot_xpath>
+			<upgrade_processing_class>ak-processing-modal-label</upgrade_processing_class>
+		</upgrage_basic_page>
+
+		<upgrade_advanced_page Desc="升级高级页面">
+			<autop_pnp_xpath>//*[@class="ak-common-page-div"]/div[2]/div[2]/div/label[2]/span[1]/input</autop_pnp_xpath>
+			<autop_dhcp_option_id_xpath>//*[@id="Config.Autoprovision.DHCP_OPTION.CustomId"]/input</autop_dhcp_option_id_xpath>
+			<autop_dhcp_custom_option_xpath>//*[@id="Config.Autoprovision.DHCP_OPTION.CustomId"]/../following-sibling::div[1]/div/div/div[1]/label[1]/span[1]/input</autop_dhcp_custom_option_xpath>
+			<autop_dhcp_option43_xpath>//*[@id="Config.Autoprovision.DHCP_OPTION.CustomId"]/../following-sibling::div[1]/div/div/div[1]/label[2]/span[1]/input</autop_dhcp_option43_xpath>
+			<autop_dhcp_option66_xpath>//*[@id="Config.Autoprovision.DHCP_OPTION.CustomId"]/../following-sibling::div[1]/div/div/div[1]/label[3]/span[1]/input</autop_dhcp_option66_xpath>
+			<autop_manual_url_xpath>//*[@id="Config.Autoprovision.GENERAL.Url"]/input</autop_manual_url_xpath>
+			<autop_manual_username_xpath>//*[@id="Config.Autoprovision.GENERAL.UserName"]/input</autop_manual_username_xpath>
+			<autop_manual_pwd_xpath>//*[@id="Config.Autoprovision.GENERAL.Pwd"]/input</autop_manual_pwd_xpath>
+			<autop_common_aes_key_xpath>//*[@id="Config.Autoprovision.AES.Key16"]/input</autop_common_aes_key_xpath>
+			<autop_mac_aes_key_xpath>//*[@id="Config.Autoprovision.AES.Key16Mac"]/input</autop_mac_aes_key_xpath>
+			<autop_immediately_autop_xpath>//*[@class="ak-common-page-div"]/div[4]/div[7]/div/button</autop_immediately_autop_xpath>
+			<autop_clear_md5_xpath>//*[@class="ak-common-page-div"]/div[5]/div[8]/div/button</autop_clear_md5_xpath>
+			<autop_export_template_xpath>//*[@class="ak-common-page-div"]/div[5]/div[7]/div/button</autop_export_template_xpath>
+			<autop_mode_box_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[1]</autop_mode_box_xpath>
+			<!--使用autop_mode_option_xpath，设置时传入1-5数字选择-->
+			<autop_mode_option_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[3]/div/div/div/ul/li</autop_mode_option_xpath>
+			<autop_mode_disabled_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[3]/div/div/div/ul/li[1]</autop_mode_disabled_xpath>
+			<autop_mode_power_on_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[3]/div/div/div/ul/li[2]</autop_mode_power_on_xpath>
+			<autop_mode_repeatedly_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[3]/div/div/div/ul/li[3]</autop_mode_repeatedly_xpath>
+			<autop_mode_power_on_repeatedly_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[3]/div/div/div/ul/li[4]</autop_mode_power_on_repeatedly_xpath>
+			<autop_mode_hourly_repeat_xpath>//*[@id="Config.Autoprovision.MODE.Mode"]/div[3]/div/div/div/ul/li[5]</autop_mode_hourly_repeat_xpath>
+		</upgrade_advanced_page>
+
+		<upgrade_diagnosis_page Des="Upgrade Diagnosis页面">
+			<upgrade_diagnosis_log_level_xpath>//*[@id="Config.Settings.LOGLEVEL.Level"]/div/div</upgrade_diagnosis_log_level_xpath>
+			<upgrade_diagnosis_log_level_option_xpath>//*[@id="Config.Settings.LOGLEVEL.Level"]/div[3]/div/div/div/ul/li</upgrade_diagnosis_log_level_option_xpath>
+			<upgrade_diagnosis_log_export_xpath>//*[@id="Config.Settings.LOGLEVEL.Level"]/../following-sibling::div[1]/div/button</upgrade_diagnosis_log_export_xpath>
+			<upgrade_diagnosis_log_remote_syslog_enable>//label[text()="Remote System Log Enabled"]/following-sibling::label[1]//input</upgrade_diagnosis_log_remote_syslog_enable>
+			<upgrade_diagnosis_log_remote_syslog_server>//*[@id="RemoteLogServer"]/div/input</upgrade_diagnosis_log_remote_syslog_server>
+
+			<upgrade_diagnosis_pcap_port_xpath>//*[@id="Config.Settings.PCAP.SpecificPort"]/input</upgrade_diagnosis_pcap_port_xpath>
+			<upgrade_diagnosis_pcap_start_xpath>//*[@class="ak-common-multi-button-div"]/button[1]</upgrade_diagnosis_pcap_start_xpath>
+			<upgrade_diagnosis_pcap_stop_xpath>//*[@class="ak-common-multi-button-div"]/button[2]</upgrade_diagnosis_pcap_stop_xpath>
+			<upgrade_diagnosis_pcap_export_xpath>//*[@class="ak-common-multi-button-div"]/button[3]</upgrade_diagnosis_pcap_export_xpath>
+			<upgrade_diagnosis_pcap_auto_refresh_xpath>//label[text()="PCAP Auto Refresh Enabled"]/following-sibling::label[1]//input</upgrade_diagnosis_pcap_auto_refresh_xpath>
+
+			<upgrade_diagnosis_config_import_btn>//label[text()="Config File"]/following-sibling::button[1]</upgrade_diagnosis_config_import_btn>
+			<upgrade_diagnosis_config_export_btn>//label[text()="Config File"]/following-sibling::button[2]</upgrade_diagnosis_config_export_btn>
+			<upgrade_diagnosis_config_select_file_input>//*[@class="ak-modal-file-input-file-name"]/span/div/span/input</upgrade_diagnosis_config_select_file_input>
+			<upgrade_diagnosis_config_select_reset_btn>//*[@class="ak-modal-file-input-file-name"]/../button</upgrade_diagnosis_config_select_reset_btn>
+			<upgrade_diagnosis_config_select_import_btn>//*[@class="ak-common-modal-footer"]//*[@class="ak-common-modal-footer-btn ak-common-modal-footer-confirm ant-btn ant-btn-primary"]</upgrade_diagnosis_config_select_import_btn>
+			<upgrade_diagnosis_config_select_cancel_btn>//*[@class="ak-common-modal-footer"]//*[@class="ak-common-modal-footer-btn ak-common-modal-footer-cancel ant-btn ant-btn-danger"]</upgrade_diagnosis_config_select_cancel_btn>
+
+		</upgrade_diagnosis_page>
+
+		<security_basic_page Desc="Security Basic页面">
+			<security_user_name_ctrl_id>userName</security_user_name_ctrl_id>
+			<security_change_pwd_btn_xpath>//*[@id="userName"]/button</security_change_pwd_btn_xpath>
+			<security_user_combobox_xpath>//*[@id="userName"]/div/div</security_user_combobox_xpath>
+			<change_pwd_window_title_xpath>//*[@class="ak-modal-span"]/../../preceding-sibling::div/div</change_pwd_window_title_xpath>
+			<change_pwd_window_description_xpath>//*[@class="ak-modal-span"]</change_pwd_window_description_xpath>
+			<change_pwd_window_old_pwd_xpath>//*[@class="ak-modal-span"]/../../div[3]/div//input</change_pwd_window_old_pwd_xpath>
+			<change_pwd_window_new_pwd_xpath>//*[@class="ak-modal-span"]/../../div[5]/div//input</change_pwd_window_new_pwd_xpath>
+			<change_pwd_window_confirm_pwd_xpath>//*[@class="ak-modal-span"]/../../div[10]/div//input</change_pwd_window_confirm_pwd_xpath>
+			<change_pwd_window_new_pwd_fmt_tips1_xpath>//*[@class="ak-modal-span"]/../../div[6]/label</change_pwd_window_new_pwd_fmt_tips1_xpath>
+			<change_pwd_window_confirm_pwd_tips_xpath>//*[@class="ak-modal-span"]/../../div[11]/label</change_pwd_window_confirm_pwd_tips_xpath>
+			<change_pwd_window_cancel_btn_xpath>//*[@class="ak-modal-span"]/../../following-sibling::div[1]/div[1]/div/button[1]</change_pwd_window_cancel_btn_xpath>
+			<change_pwd_window_change_btn_xpath>//*[@class="ak-modal-span"]/../../following-sibling::div[1]/div[1]/div/button[2]</change_pwd_window_change_btn_xpath>
+			<change_pwd_window_close_btn_xpath>//*[@class="ak-modal-span"]/../../preceding-sibling::button[1]</change_pwd_window_close_btn_xpath>
+
+			<security_session_timeout_xpath>//*[@id="Config.Settings.WEB_LOGIN_STATUS.SessionTimeOut"]/input</security_session_timeout_xpath>
+
+			<security_account_status_user_checkbox>//label[text()="Account Status"]/../../div[3]/div/label[2]/span[1]/input</security_account_status_user_checkbox>
+			<security_account_status_admin_label>//label[text()="Account Status"]/../../div[2]/div/label[2]</security_account_status_admin_label>
+		</security_basic_page>
+
+		<security_http_api_page Dsec="Security/HttpAPI界面">
+			<http_api_enable>//*[@id="AuthMode"]/../preceding-sibling::div[1]/div/label[2]/span[1]/input</http_api_enable>
+			<http_api_auth_mode>//*[@id="AuthMode"]/div/div</http_api_auth_mode>
+			<http_api_mode_option_none>//*[@id="AuthMode"]/div[2]/div/div/div/ul/li[1]</http_api_mode_option_none>
+			<http_api_mode_option_normal>Normal</http_api_mode_option_normal>
+			<http_api_mode_option_white_list>//*[@id="AuthMode"]/div[2]/div/div/div/ul/li[2]</http_api_mode_option_white_list>
+		</security_http_api_page>
+
+		<hidden_8848_page Desc="8848隐藏页面">
+			<hidden_page_title_xpath>//*[@class="ak-common-page-div"]/div[1]/div/span[2]/a</hidden_page_title_xpath>
+			<hidden_page_telnet_xpath>//*[@id="telnetEnable"]/div/div</hidden_page_telnet_xpath>
+			<hidden_page_telnet_option_xpath>//*[@id="telnetEnable"]/div[3]/div/div/div/ul/li</hidden_page_telnet_option_xpath>
+			<hidden_page_telnet_selected_xpath>//*[@id="telnetEnable"]/div[1]/div/div/div</hidden_page_telnet_selected_xpath>
+		</hidden_8848_page>
+	</web_element_info>
+</root>

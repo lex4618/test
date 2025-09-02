@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+	<!--需要增加一个cloud_info，命名一个环境名称（比如: cloud_info__jason），然后在config.ini中指定环境名称autotest_env_name = jason-->
+	<cloud_info__access_door_1118>
+		<line>
+			<cloud_server_name>test84</cloud_server_name>
+			<version_branch>cloud_CBB</version_branch>
+			<server_domain>test84.akuvox.com</server_domain>
+			<server_addr>https://test84.akuvox.com</server_addr>
+			<server_manage_addr>https://test84.akuvox.com/manage-new</server_manage_addr>
+			<server_ip>gate.test84.akuvox.com</server_ip>
+			<server_id>62</server_id>
+			<supermanage_user>supermanage</supermanage_user>
+			<supermanage_pwd>Akcs.Test@0331.com</supermanage_pwd>
+			<distributor_user>at6_distributor</distributor_user>
+			<distributor_pwd>Aa12345678</distributor_pwd>
+			<installer_user>at6_installer</installer_user>
+			<installer_pwd>Aa12345678</installer_pwd>
+			<person_master_name>at6_per_user_m</person_master_name>
+			<person_master_email>at6.per.user.m@akt.com</person_master_email>
+			<person_master_pwd>Aa12345678</person_master_pwd>
+			<person_master_sip>6244100000</person_master_sip>
+			<person_slave_name>at6_per_user_s</person_slave_name>
+			<person_slave_email>at6.per.user.s@akt.com</person_slave_email>
+			<person_slave_pwd>Aa12345678</person_slave_pwd>
+			<person2_master_name>at6_per_user2_m</person2_master_name>
+			<person2_master_email>at6.per.user2.m@akt.com</person2_master_email>
+			<person2_master_pwd>Aa12345678</person2_master_pwd>
+			<person2_slave_name>at6_per_user2_s</person2_slave_name>
+			<person2_slave_email>at6.per.user2.s@akt.com</person2_slave_email>
+			<person2_slave_pwd>Aa12345678</person2_slave_pwd>
+			<community_name>Community1</community_name>
+			<property_user>at6.property@akt.com</property_user>
+			<property_pwd>Aa12345678</property_pwd>
+			<building_name>Building 1</building_name>
+			<apt_number_floor>8</apt_number_floor>
+			<apt_number>805</apt_number>
+			<apt_name>at6_room</apt_name>
+			<apt_number_and_name>805 at6_room</apt_number_and_name>
+			<comm_user_master_email>at6.comm.user@akt.com</comm_user_master_email>
+			<comm_user_master_pwd>Aa12345678</comm_user_master_pwd>
+			<comm_user_resident_name>comm_user at6</comm_user_resident_name>
+			<comm_user_firstname>comm_user</comm_user_firstname>
+			<comm_user_lastname>at6</comm_user_lastname>
+			<building2_name>Building 2</building2_name>
+			<apt2_number>906</apt2_number>
+			<apt2_name>at6_room2</apt2_name>
+			<apt2_number_and_name>805 at6_room2</apt2_number_and_name>
+			<comm_user2_master_email>at6.comm.user2@akt.com</comm_user2_master_email>
+			<comm_user2_master_pwd>Aa12345678</comm_user2_master_pwd>
+			<comm_user2_resident_name>comm_user2 at6</comm_user2_resident_name>
+			<comm_user2_firstname>comm_user2</comm_user2_firstname>
+			<comm_user2_lastname>at6</comm_user2_lastname>
+		</line>
+		<line>
+			<cloud_server_name>test-hz</cloud_server_name>
+			<version_branch>cloud_CBB</version_branch>
+			<server_domain>test-hz.akuvox.com</server_domain>
+			<server_addr>https://test-hz.akuvox.com</server_addr>
+			<server_manage_addr>https://test-hz.akuvox.com/manage-new</server_manage_addr>
+			<server_ip>39.108.62.163</server_ip>
+			<server_id>51</server_id>
+			<supermanage_user>supermanage</supermanage_user>
+			<supermanage_pwd>Akcs.Test@0331.com</supermanage_pwd>
+			<distributor_user>at6_distributor</distributor_user>
+			<distributor_pwd>Aa12345678</distributor_pwd>
+			<installer_user>at6_installer</installer_user>
+			<installer_pwd>Aa12345678</installer_pwd>
+			<person_master_name>at6_per_user_m</person_master_name>
+			<person_master_email>at6.per.user.m@akt.com</person_master_email>
+			<person_master_pwd>Aa12345678</person_master_pwd>
+			<person_master_sip>5194100001</person_master_sip>
+			<person_slave_name>at6_per_user_s</person_slave_name>
+			<person_slave_email>at6.per.user.s@akt.com</person_slave_email>
+			<person_slave_pwd>Aa12345678</person_slave_pwd>
+			<person2_master_name>at6_per_user2_m</person2_master_name>
+			<person2_master_email>at6.per.user2.m@akt.com</person2_master_email>
+			<person2_master_pwd>Aa12345678</person2_master_pwd>
+			<person2_slave_name>at6_per_user2_s</person2_slave_name>
+			<person2_slave_email>at6.per.user2.s@akt.com</person2_slave_email>
+			<person2_slave_pwd>Aa12345678</person2_slave_pwd>
+			<community_name>Community1</community_name>
+			<property_user>at6.property@akt.com</property_user>
+			<property_pwd>Aa12345678</property_pwd>
+			<building_name>Building 1</building_name>
+			<apt_number_floor>8</apt_number_floor>
+			<apt_number>805</apt_number>
+			<apt_name>at6_room</apt_name>
+			<apt_number_and_name>805 at6_room</apt_number_and_name>
+			<comm_user_master_email>at6.comm.user@akt.com</comm_user_master_email>
+			<comm_user_master_pwd>Aa12345678</comm_user_master_pwd>
+			<comm_user_resident_name>comm_user at6</comm_user_resident_name>
+			<comm_user_firstname>comm_user</comm_user_firstname>
+			<comm_user_lastname>at6</comm_user_lastname>
+			<building2_name>Building 2</building2_name>
+			<apt2_number>906</apt2_number>
+			<apt2_name>at6_room2</apt2_name>
+			<apt2_number_and_name>805 at6_room2</apt2_number_and_name>
+			<comm_user2_master_email>at6.comm.user2@akt.com</comm_user2_master_email>
+			<comm_user2_master_pwd>Aa12345678</comm_user2_master_pwd>
+			<comm_user2_resident_name>comm_user2 at6</comm_user2_resident_name>
+			<comm_user2_firstname>comm_user2</comm_user2_firstname>
+			<comm_user2_lastname>at6</comm_user2_lastname>
+		</line>
+	</cloud_info__access_door_1118>
+</root>
